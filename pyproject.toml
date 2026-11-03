@@ -6,6 +6,7 @@ dependencies = [
     "gemmi>=0.7.5",
     "meeko>=0.8.0",
     "numpy>=2.5.4",
+    "prody>=2.6.1",
     "rdkit>=2026.9.1",
     "scipy>=1.18.1",
 ]
