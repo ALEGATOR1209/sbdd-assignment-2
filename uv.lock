@@ -10,6 +10,7 @@ dependencies = [
     { name = "gemmi" },
     { name = "meeko" },
     { name = "numpy" },
+    { name = "prodigy-lig" },
     { name = "prody" },
     { name = "rdkit" },
     { name = "scipy" },
@@ -20,6 +21,7 @@ requires-dist = [
     { name = "gemmi", specifier = ">=0.7.5" },
     { name = "meeko", specifier = ">=0.8.0" },
     { name = "numpy", specifier = ">=2.5.4" },
+    { name = "prodigy-lig", specifier = ">=1.1.4" },
     { name = "prody", specifier = ">=2.6.1" },
     { name = "rdkit", specifier = ">=2026.9.1" },
     { name = "scipy", specifier = ">=1.18.1" },
@@ -221,6 +223,19 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/fc/96/d6b82e8b8c06ad143b66b12e0b31051e4bf489b4fabca1f390a14fe1ebde/pillow-13.0.0-cp315-cp315t-win32.whl", hash = "sha256:c50c80e3591e5cf9a8dfa6007d4f10732f02e32263850999286e56ccd650cfb2", size = 6517200, upload-time = "2026-10-16T22:17:42.886Z" },
     { url = "https://files.pythonhosted.org/packages/60/d4/0062e6005e9b270b165015aafd343364ac378ec5a685431ea42baad33357/pillow-13.0.0-cp315-cp315t-win_amd64.whl", hash = "sha256:adb3c2124c68e480f4632d06cb7caa3b48a51678475f483b4edb1c6dee29ea43", size = 7287488, upload-time = "2026-10-16T22:17:45.56Z" },
     { url = "https://files.pythonhosted.org/packages/e4/81/b8eb349746be7bce47dd95337c6634e84910af91b59aaa9159c034c614fa/pillow-13.0.0-cp315-cp315t-win_arm64.whl", hash = "sha256:4a25756244bdcce3b50580baadf320fa48297f0eeb8e114ba64139a40d4d0fc8", size = 2698073, upload-time = "2026-10-16T22:17:47.556Z" },
+]
+
+[[package]]
+name = "prodigy-lig"
+version = "1.1.4"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "biopython" },
+    { name = "numpy" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/71/79/139bbf7a0a2ca4006db63a0b9b72256f61882a5cc62c9687c405dfad29d5/prodigy_lig-1.1.4.tar.gz", hash = "sha256:bfff3296c46ee9751882c44537080ab12bd58a903735ee20fa1dfaab363882a3", size = 16962, upload-time = "2025-09-25T09:07:53.395Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/ca/7f/af6bb35043413a9d01164e20bf1c66f92dcc98a9c53f422e8d7e469c424d/prodigy_lig-1.1.4-py3-none-any.whl", hash = "sha256:c9ebe669be71bb8e2020180e319e6a84c0e186e451ea63410bed715060ec6eef", size = 14936, upload-time = "2025-09-25T09:07:52.275Z" },
 ]
 
 [[package]]

@@ -1,0 +1,24 @@
+[{
+ "name": "FABP5-CRZ",
+ "modelSeeds": [
+  "54082866"
+ ],
+ "sequences": [
+  {
+   "proteinChain": {
+    "sequence": "GSHMATVQQLEGRWRLVDSKGFDEYMKELGVGIALRKMGAMAKPDCIITCDGKNLTIKTESTLKTTQFSCTLGEKFEETTADGRKTQTVCNFTDGALVQHQEWDGKESTITRKLKDGKLVVECVMNNVTCTRIYEKVE",
+    "count": 1,
+    "useStructureTemplate": true
+   }
+  },
+  {
+   "ligand": {
+    "ligand": "CRZ",
+    "count": 1
+   }
+  }
+ ],
+ "dialect": "alphafoldserver",
+ "version": 3
+}
+]
